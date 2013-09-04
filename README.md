@@ -5,11 +5,17 @@ cabo por algunos de los integrantes del
 [Grupo Estudio Python](https://plus.google.com/u/0/communities/105786905874914734353)
 con el ánimo de practicar algo de lo aprendido.
 
+## Modo de uso
+./editor.py -e /ruta/al/archivo/que/desea/editar.txt => Editar archivo
+./editor.py -h => Muestra los parámetros que acepta el script
+./editor.py -n /ruta/donde/quiere/guardar/el/archivo.txt => Crear nuevo archivo
+./editor.py -v => Muestra la versión actual del editor
 
-#TODO
+
+#TODOLIST
 
 1. Crear archivo de configuración con valores por defecto, tales como:
-	- Codificación por defecto para todos los archivos
+    <del>- Codificación por defecto para todos los archivos</del>
 
     ###### Las siguientes variables se tendrán en cuenta para futuras versiones del editor
     - Ruta a las carpetas que contienen los archivos para el resaltado de sintaxis
@@ -18,8 +24,8 @@ con el ánimo de practicar algo de lo aprendido.
     - Si son espacios, entonces cuántos espacios debe usar el 
       editor por defecto para reemplazar un tabulador
 
-2. Crear un archivo .py ejecutable que será el script del editor, que
-	reciba parámetros al ser llamado. Ejemplo: editor.py -n filename.txt
+2. <del>Crear un archivo .py ejecutable que será el script del editor, que
+    reciba parámetros al ser llamado. Ejemplo: editor.py -n filename.txt</del>
 
 	*Si no se pasa ningún parámetro al script al ser llamado, se creará
 	un archivo nuevo sin nombre y la primera vez que el usuario quiera
