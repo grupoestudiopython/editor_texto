@@ -11,7 +11,7 @@ con el ánimo de practicar algo de lo aprendido.
 1. Crear archivo de configuración con valores por defecto, tales como:
 	- Codificación por defecto para todos los archivos
 
-    ** Las siguientes variables se tendrán en cuenta para futuras versiones del editor **
+    ###### Las siguientes variables se tendrán en cuenta para futuras versiones del editor
     - Ruta a las carpetas que contienen los archivos para el resaltado de sintaxis
     - Ruta a la carpeta que contiene los plugins, etc.
     - Usar espacios o tabuladores por defecto
