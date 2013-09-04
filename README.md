@@ -1,4 +1,4 @@
-#Proyecto "Editor de texto en consola".
+#Proyecto "Editor de texto en consola"
 
 Este es un proyecto con fines meramente educativos y prácticos, llevado a
 cabo por algunos de los integrantes del
@@ -6,11 +6,11 @@ cabo por algunos de los integrantes del
 con el ánimo de practicar algo de lo aprendido.
 
 ## Modo de uso
-./editor.py -e /ruta/al/archivo/que/desea/editar.txt => Editar archivo<br />
-./editor.py -h => Muestra los parámetros que acepta el script<br />
-./editor.py -n /ruta/donde/quiere/guardar/el/archivo.txt => Crear nuevo archivo<br />
-./editor.py -v => Muestra la versión actual del editor<br />
-./editor.py => Se creará un archivo temporal hasta que el usuario decida guardarlo<br />
+**./editor.py -e /ruta/al/archivo/que/desea/editar.txt** => Editar archivo<br />
+**./editor.py -h** => Muestra los parámetros que acepta el script<br />
+**./editor.py -n /ruta/donde/quiere/guardar/el/archivo.txt** => Crear nuevo archivo<br />
+**./editor.py -v** => Muestra la versión actual del editor<br />
+**./editor.py** => Se creará un archivo temporal hasta que el usuario decida guardarlo<br />
 
 
 #TODOLIST
