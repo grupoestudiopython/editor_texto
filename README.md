@@ -27,34 +27,33 @@ con el ánimo de practicar algo de lo aprendido.
 
 
 3. Manejo de archivos de texto (por ahora sólo archivos .txt)
-	Esto incluye manejo de tareas tales como:
-		- Verificar que el archivo existe (si es que el usuario quiere abrir
-		  un archivo existente) y que la extensión sea .txt
-		- Codificación a usar
-		- Salto de línea (sólo Windows y Unix por ahora)
-		- Abrir siempre los archivos en modo lectura y escritura, a menos que
-		  el usuario actual no posea permisos de escritura, en tal caso se
-		  intentará abrir en modo "sólo lectura"
-		- Automatizar el guardado automático cada "x" tiempo transcurrido
+    - Verificar que el archivo existe (si es que el usuario quiere abrir
+      un archivo existente) y que la extensión sea .txt
+    - Codificación a usar
+    - Salto de línea (sólo Windows y Unix por ahora)
+    - Abrir siempre los archivos en modo lectura y escritura, a menos que
+      el usuario actual no posea permisos de escritura, en tal caso se
+      intentará abrir en modo "sólo lectura"
+    - Automatizar el guardado automático cada "x" tiempo transcurrido
 
 4. Ingreso de información por teclado (mouse opcional)
-		- Escribir en el archivo
-		- Moverse por el texto con las flechas del teclado
-		- Combinaciones de teclas
-			- Búsqueda de texto dentro de la sesión actual
-			- Deshacer la última acción
-			- Ir a la línea n
-			- Copiar y pegar
+    - Escribir en el archivo
+    - Moverse por el texto con las flechas del teclado
+    - Combinaciones de teclas
+    - Búsqueda de texto dentro de la sesión actual
+    - Deshacer la última acción
+    - Ir a la línea n
+    - Copiar y pegar
 
 5. Una barra de información en la parte inferior del editor que muestre
 	información básica, por ejemplo:
-		- La línea actual del cursor
-		- Ruta y nombre del nombre del archivo
-		- Codificación del archivo
-		- Número de caracteres que tiene el archivo (en tiempo real), es decir,
-		  a medida que se va escribiendo o borrando, este valor debe ir 
-		  aumentando o disminuyendo según el caso.
-		- Errores si llegasen a ocurrir
+    - La línea actual del cursor
+    - Ruta y nombre del nombre del archivo
+    - Codificación del archivo
+    - Número de caracteres que tiene el archivo (en tiempo real), es decir,
+      a medida que se va escribiendo o borrando, este valor debe ir 
+      aumentando o disminuyendo según el caso.
+    - Errores si llegasen a ocurrir
 
 
 
