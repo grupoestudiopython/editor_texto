@@ -6,10 +6,11 @@ cabo por algunos de los integrantes del
 con el ánimo de practicar algo de lo aprendido.
 
 ## Modo de uso
-./editor.py -e /ruta/al/archivo/que/desea/editar.txt => Editar archivo
-./editor.py -h => Muestra los parámetros que acepta el script
-./editor.py -n /ruta/donde/quiere/guardar/el/archivo.txt => Crear nuevo archivo
-./editor.py -v => Muestra la versión actual del editor
+./editor.py -e /ruta/al/archivo/que/desea/editar.txt => Editar archivo<br />
+./editor.py -h => Muestra los parámetros que acepta el script<br />
+./editor.py -n /ruta/donde/quiere/guardar/el/archivo.txt => Crear nuevo archivo<br />
+./editor.py -v => Muestra la versión actual del editor<br />
+./editor.py => Se creará un archivo temporal hasta que el usuario decida guardarlo<br />
 
 
 #TODOLIST
@@ -25,11 +26,11 @@ con el ánimo de practicar algo de lo aprendido.
       editor por defecto para reemplazar un tabulador
 
 2. <del>Crear un archivo .py ejecutable que será el script del editor, que
-    reciba parámetros al ser llamado. Ejemplo: editor.py -n filename.txt</del>
+    reciba parámetros al ser llamado. Ejemplo: editor.py -n filename.txt
 
 	*Si no se pasa ningún parámetro al script al ser llamado, se creará
-	un archivo nuevo sin nombre y la primera vez que el usuario quiera
-	guardar los cambios, se le pedirá un nombre para el archivo.*
+	un archivo temporal y la primera vez que el usuario quiera guardar
+    los cambios, se le pedirá un nombre y una ruta para el archivo.*</del>
 
 
 3. Manejo de archivos de texto (por ahora sólo archivos .txt)
