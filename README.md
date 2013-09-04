@@ -1,4 +1,4 @@
-#Proyecto "Editor de texto en consola".
+#Proyecto "Editor de texto en consola"
 
 Este es un proyecto con fines meramente educativos y prácticos, llevado a
 cabo por algunos de los integrantes del
