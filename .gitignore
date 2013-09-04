@@ -1,1 +1,7 @@
 *.swp
+
+# Carpetas de virtualenv
+/bin
+/include
+/local
+/lib
