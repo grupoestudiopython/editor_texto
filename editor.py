@@ -25,19 +25,20 @@ class Editor(object):
         por defecto"""
 
         # archivo que contiene la configuración del editor
-        config = open('editor.conf')
+        with open('editor.conf') as config:
+            for line in config:
 
-        # itera sobre cada línea del archivo de configuración
-        for line in config.readlines():
-            # mira si la línea empieza por "ENCODING"
-            if line.startswith('ENCODING'):
-                # Las siguientes 2 variables almacenan el rango de posición
-                # donde se encuentra el valor de la variable
-                primer_apostrofe = line.find("'") + 1
-                segundo_apostrofe = line.find("'", primer_apostrofe)
+            # itera sobre cada línea del archivo de configuración
+            #for line in config.readlines():
+                # mira si la línea empieza por "ENCODING"
+                if line.startswith('ENCODING'):
+                    # Las siguientes 2 variables almacenan el rango de posición
+                    # donde se encuentra el valor de la variable
+                    primer_apostrofe = line.find("'") + 1
+                    segundo_apostrofe = line.find("'", primer_apostrofe)
 
-                # Se recupera el valor deseado en los rangos encontrados
-                self.encoding = line[primer_apostrofe:segundo_apostrofe]
+                    # Se recupera el valor deseado en los rangos encontrados
+                    self.encoding = line[primer_apostrofe:segundo_apostrofe]
 
 
     def nuevo(self, ruta):
